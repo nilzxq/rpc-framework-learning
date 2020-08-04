@@ -1,4 +1,4 @@
-package github.dynamicProxy.netty.echo;
+package github.netty.echo;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

@@ -1,4 +1,4 @@
-package github.dynamicProxy.socket;
+package github.socket;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

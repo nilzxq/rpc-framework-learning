@@ -2,23 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a4dec72-f72e-4e2c-a9a3-3b3778cf886c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/client/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/client/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/codec/NettyKryoDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/codec/NettyKryoEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/dto/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/dto/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/serialize/KryoSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/serialize/SerializeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/serialize/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/server/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/netty/kyro/server/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/cglibDynamicProxy/AliSmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/cglibDynamicProxy/CglibProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/cglibDynamicProxy/DebugMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/cglibDynamicProxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/jdkDynamicProxy/DebugInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/jdkDynamicProxy/JDKProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/jdkDynamicProxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/jdkDynamicProxy/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/jdkDynamicProxy/SmsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/netty/echo/HelloClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/netty/echo/HelloClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/netty/echo/HelloServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/netty/echo/HelloServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/netty/echo/HelloServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/socket/HelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/socket/HelloClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/socket/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/socket/HelloServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/dynamicProxy/socket/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/socket/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/netty/echo/HelloClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/netty/echo/HelloClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/netty/echo/HelloClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/netty/echo/HelloServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/netty/echo/HelloServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/netty/echo/HelloServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/socket/HelloClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/socket/HelloServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/dynamicProxy/socket/Message.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +78,13 @@
       <recent name="github.dynamicProxy.netty.echo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyClient">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="HelloClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="github.dynamicProxy.socket.HelloClient" />
+      <option name="MAIN_CLASS_NAME" value="github.socket.HelloClient" />
       <module name="rpc-framework-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.dynamicProxy.socket.*" />
+          <option name="PATTERN" value="github.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="github.dynamicProxy.socket.HelloServer" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="github.dynamicProxy.cglibDynamicProxy.Main" />
       <module name="rpc-framework-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.dynamicProxy.socket.*" />
+          <option name="PATTERN" value="github.dynamicProxy.cglibDynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="github.dynamicProxy.jdkDynamicProxy.Main" />
+      <module name="rpc-framework-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.dynamicProxy.jdkDynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.HelloClient" />
-        <item itemvalue="Application.HelloServer" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596522690271</updated>
-      <workItem from="1596522695647" duration="6198000" />
+      <workItem from="1596522695647" duration="8810000" />
     </task>
     <servers />
   </component>
@@ -149,30 +172,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1183" y="362" key="#com.intellij.ide.util.MemberChooser" timestamp="1596526863899">
+    <state x="1183" y="362" key="#com.intellij.ide.util.MemberChooser" timestamp="1596531010013">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state x="1183" y="362" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1596526863899" />
+    <state x="1183" y="362" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1596531010013" />
+    <state x="924" y="609" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596529813733">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="924" y="609" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1596529813733" />
+    <state x="0" y="567" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596531446069">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="0" y="567" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1596531446069" />
     <state x="634" y="292" key="FileChooserDialogImpl" timestamp="1596522755435">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="634" y="292" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1596522755435" />
-    <state width="1706" height="631" key="GridCell.Tab.0.bottom" timestamp="1596529023118">
+    <state width="1706" height="452" key="GridCell.Tab.0.bottom" timestamp="1596531522772">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1706" height="631" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1596529023118" />
-    <state width="1706" height="631" key="GridCell.Tab.0.center" timestamp="1596529023117">
+    <state width="1706" height="452" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1596531522772" />
+    <state width="1706" height="452" key="GridCell.Tab.0.center" timestamp="1596531522771">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1706" height="631" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1596529023117" />
-    <state width="1706" height="631" key="GridCell.Tab.0.left" timestamp="1596529023117">
+    <state width="1706" height="452" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1596531522771" />
+    <state width="1706" height="452" key="GridCell.Tab.0.left" timestamp="1596531522771">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1706" height="631" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1596529023117" />
-    <state width="1706" height="631" key="GridCell.Tab.0.right" timestamp="1596529023118">
+    <state width="1706" height="452" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1596531522771" />
+    <state width="1706" height="452" key="GridCell.Tab.0.right" timestamp="1596531522772">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1706" height="631" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1596529023118" />
+    <state width="1706" height="452" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1596531522772" />
     <state x="0" y="384" key="Maven.ArtifactSearchDialog" timestamp="1596528311790">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
